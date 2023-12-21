@@ -1,0 +1,2149 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@angular/animations": "^17.0.7",
+    "@angular/cdk": "^17.0.4",
+    "@angular/common": "^17.0.7",
+    "@angular/compiler": "^17.0.7",
+    "@angular/core": "^17.0.7",
+    "@angular/forms": "^17.0.7",
+    "@angular/material": "^17.0.4",
+    "@angular/platform-browser": "^17.0.7",
+    "@angular/platform-browser-dynamic": "^17.0.7",
+    "@angular/router": "^17.0.7",
+    "@ngneat/hot-toast": "^6.0.2",
+    "@ngneat/overview": "^5.1.1",
+    "apexcharts": "^3.45.0",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.4.1",
+    "material-icons": "^1.13.12",
+    "ng-apexcharts": "^1.8.0",
+    "ng2-charts": "^5.0.4",
+    "ngx-mat-number-input-spinner": "^1.2.0",
+    "ngx-scrollbar": "^13.0.3",
+    "rxjs": "~7.8.1",
+    "simplebar": "^6.2.5",
+    "simplebar-angular": "^3.2.4",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.2",
+    "@angular-devkit/build-angular": "^17.0.7",
+    "@angular-eslint/builder": "17.1.1",
+    "@angular-eslint/eslint-plugin": "17.1.1",
+    "@angular-eslint/eslint-plugin-template": "17.1.1",
+    "@angular-eslint/schematics": "17.1.1",
+    "@angular-eslint/template-parser": "17.1.1",
+    "@angular/cli": "~17.0.7",
+    "@angular/compiler-cli": "^17.0.7",
+    "@types/jasmine": "~4.3.5",
+    "@typescript-eslint/eslint-plugin": "6.15.0",
+    "@typescript-eslint/parser": "6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "prettier": "^3.1.1",
+    "prettier-eslint": "^16.2.0",
+    "typescript": "~5.2.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".DS_Store",
+        "hash": "9095414094511966576"
+      },
+      {
+        "file": ".angular/cache/17.0.7/angular-todolist/.tsbuildinfo",
+        "hash": "13696430510516460666"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_common.js",
+        "hash": "5557932593007108394"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_common.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_common_locales_fr.js",
+        "hash": "16516170657166339093"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_common_locales_fr.js.map",
+        "hash": "1019077658912351850"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_core.js",
+        "hash": "2990005430777047378"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_core.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_forms.js",
+        "hash": "17237505930396332797"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_forms.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_badge.js",
+        "hash": "6760210498066903733"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_badge.js.map",
+        "hash": "1440894801793364065"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_button.js",
+        "hash": "15692767799743402329"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_button.js.map",
+        "hash": "11753567134521344412"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_checkbox.js",
+        "hash": "16507684692957633426"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_checkbox.js.map",
+        "hash": "7071578924151208776"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_form-field.js",
+        "hash": "12978408478168834122"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_form-field.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_icon.js",
+        "hash": "8137015959833009858"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_icon.js.map",
+        "hash": "6984823182524106612"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_input.js",
+        "hash": "15029549909578814092"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_input.js.map",
+        "hash": "3481879856815928073"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_table.js",
+        "hash": "16375833568885063010"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_table.js.map",
+        "hash": "175984083060707748"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_tooltip.js",
+        "hash": "13333083688015756208"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_material_tooltip.js.map",
+        "hash": "15741369917669884647"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_platform-browser.js",
+        "hash": "17514224883036499712"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_platform-browser.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_platform-browser_animations.js",
+        "hash": "6936917136887215595"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_platform-browser_animations.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_router.js",
+        "hash": "5187755119006483985"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/@angular_router.js.map",
+        "hash": "11992495456425051975"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/_metadata.json",
+        "hash": "7721191361533527731"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-AFRMXCSX.js",
+        "hash": "174920005157362125"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-AFRMXCSX.js.map",
+        "hash": "4273557795433372810"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-CI6MQPSW.js",
+        "hash": "17462798751091939059"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-CI6MQPSW.js.map",
+        "hash": "8723756069020158244"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-KMBENAB7.js",
+        "hash": "7888206228217602844"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-KMBENAB7.js.map",
+        "hash": "2022265662290437211"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-RCNQJ6XE.js",
+        "hash": "14201127821068067294"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-RCNQJ6XE.js.map",
+        "hash": "8987762993502381064"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-STUZPFMT.js",
+        "hash": "194105334060837914"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-STUZPFMT.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-TMDUSZGG.js",
+        "hash": "8509439164437914642"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-TMDUSZGG.js.map",
+        "hash": "8004401241306839749"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-UWCZJ765.js",
+        "hash": "3044839465569503934"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-UWCZJ765.js.map",
+        "hash": "16706579034487300841"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-WAWOHVGO.js",
+        "hash": "15185490719831833086"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-WAWOHVGO.js.map",
+        "hash": "16063553720779278549"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-WEURTG7O.js",
+        "hash": "3084227095678853840"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-WEURTG7O.js.map",
+        "hash": "994149528353297219"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-YYJD5XQS.js",
+        "hash": "1531216595904251013"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/chunk-YYJD5XQS.js.map",
+        "hash": "15969900260682372997"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/ngx-mat-number-input-spinner.js",
+        "hash": "10781281666571858485"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/ngx-mat-number-input-spinner.js.map",
+        "hash": "2812778391042208098"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/ngx-scrollbar.js",
+        "hash": "5369237182260504078"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/ngx-scrollbar.js.map",
+        "hash": "14997036761622176496"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/package.json",
+        "hash": "8630294688235076505"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/simplebar-angular.js",
+        "hash": "4475693685226413961"
+      },
+      {
+        "file": ".angular/cache/17.0.7/vite/deps/simplebar-angular.js.map",
+        "hash": "4832711373205676330"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "7199303081685419980"
+      },
+      {
+        "file": ".firebase/hosting.ZGlzdC9hbmd1bGFyLXRvZG9saXN0.cache",
+        "hash": "2288585211376515546"
+      },
+      {
+        "file": ".firebaserc",
+        "hash": "7775345407473579601"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": ".idea/workspace.xml",
+        "hash": "1275139381803244443"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "790029911957019674"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "16829336135036520517"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "10112788011983068799"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "7473469676649692145"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "11625286717143547956"
+      },
+      {
+        "file": "README.md",
+        "hash": "13457933211513571368"
+      },
+      {
+        "file": "angular.json",
+        "hash": "8450273236471921701"
+      },
+      {
+        "file": "firebase.json",
+        "hash": "12612273691937210032"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15019754902531249330"
+      },
+      {
+        "file": "package.json",
+        "hash": "17458068655840575174"
+      },
+      {
+        "file": "src/app/account/account.component.html",
+        "hash": "17816966185630879015"
+      },
+      {
+        "file": "src/app/account/account.component.ts",
+        "hash": "15631493706945331196"
+      },
+      {
+        "file": "src/app/account/auth/auth.routes.ts",
+        "hash": "17289504780437958751"
+      },
+      {
+        "file": "src/app/account/auth/login-admin/login-admin.component.html",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/account/auth/login-admin/login-admin.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/account/auth/login-admin/login-admin.component.spec.ts",
+        "hash": "7518721349078936283"
+      },
+      {
+        "file": "src/app/account/auth/login-admin/login-admin.component.ts",
+        "hash": "5349141294007613747"
+      },
+      {
+        "file": "src/app/account/auth/login-standard-user/login-standard-user.component.html",
+        "hash": "116485903927325213"
+      },
+      {
+        "file": "src/app/account/auth/login-standard-user/login-standard-user.component.scss",
+        "hash": "16148629504374156513"
+      },
+      {
+        "file": "src/app/account/auth/login-standard-user/login-standard-user.component.spec.ts",
+        "hash": "8498423446581243953"
+      },
+      {
+        "file": "src/app/account/auth/login-standard-user/login-standard-user.component.ts",
+        "hash": "14602052645870391452"
+      },
+      {
+        "file": "src/app/admin/dashboards/beasy-dashboard/beasy-dashboard.component.html",
+        "hash": "7942199250460011929"
+      },
+      {
+        "file": "src/app/admin/dashboards/beasy-dashboard/beasy-dashboard.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/admin/dashboards/beasy-dashboard/beasy-dashboard.component.spec.ts",
+        "hash": "2675233478342159003"
+      },
+      {
+        "file": "src/app/admin/dashboards/beasy-dashboard/beasy-dashboard.component.ts",
+        "hash": "17745996638074832732"
+      },
+      {
+        "file": "src/app/admin/dashboards/dashboard.routes.ts",
+        "hash": "7133928446286257873"
+      },
+      {
+        "file": "src/app/admin-test/admin-test.component.html",
+        "hash": "10596794749642447547"
+      },
+      {
+        "file": "src/app/admin-test/admin-test.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/admin-test/admin-test.component.spec.ts",
+        "hash": "5700682522030243407"
+      },
+      {
+        "file": "src/app/admin-test/admin-test.component.ts",
+        "hash": "11097547659710813461"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "17816966185630879015"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "15101082274051467987"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "13589641621257201805"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "5046335631815860232"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "12075206328547430665"
+      },
+      {
+        "file": "src/app/architecture3/architecture3.component.html",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/architecture3/architecture3.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/architecture3/architecture3.component.spec.ts",
+        "hash": "17365669945482823363"
+      },
+      {
+        "file": "src/app/architecture3/architecture3.component.ts",
+        "hash": "2307796891247198270"
+      },
+      {
+        "file": "src/app/caisse/caisse.component.html",
+        "hash": "7237197958635016310"
+      },
+      {
+        "file": "src/app/caisse/caisse.component.scss",
+        "hash": "9964653712078878820"
+      },
+      {
+        "file": "src/app/caisse/caisse.component.ts",
+        "hash": "16208381333921041175"
+      },
+      {
+        "file": "src/app/caisse/components/categories-chart/categories-chart.component.html",
+        "hash": "6480286143558080726"
+      },
+      {
+        "file": "src/app/caisse/components/categories-chart/categories-chart.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/caisse/components/categories-chart/categories-chart.component.ts",
+        "hash": "4311790718099539755"
+      },
+      {
+        "file": "src/app/caisse/components/items-chart/items-chart.component.html",
+        "hash": "8443877802721808871"
+      },
+      {
+        "file": "src/app/caisse/components/items-chart/items-chart.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/caisse/components/items-chart/items-chart.component.ts",
+        "hash": "10459321648899567703"
+      },
+      {
+        "file": "src/app/caisse/components/stock-products-table/stock-products-table.component.html",
+        "hash": "229283171146656211"
+      },
+      {
+        "file": "src/app/caisse/components/stock-products-table/stock-products-table.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/caisse/components/stock-products-table/stock-products-table.component.ts",
+        "hash": "13042206410094486084"
+      },
+      {
+        "file": "src/app/core/layout/footer/footer.component.html",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/core/layout/footer/footer.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/core/layout/footer/footer.component.spec.ts",
+        "hash": "1326857756739025558"
+      },
+      {
+        "file": "src/app/core/layout/footer/footer.component.ts",
+        "hash": "11652710610831143428"
+      },
+      {
+        "file": "src/app/core/layout/main-layout/main-layout.component.html",
+        "hash": "11641268142030862649"
+      },
+      {
+        "file": "src/app/core/layout/main-layout/main-layout.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/core/layout/main-layout/main-layout.component.spec.ts",
+        "hash": "1841177103567627900"
+      },
+      {
+        "file": "src/app/core/layout/main-layout/main-layout.component.ts",
+        "hash": "17474490722463822848"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-fullscreen-toggle/navbar-fullscreen-toggle.component.html",
+        "hash": "88050635856534413"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-fullscreen-toggle/navbar-fullscreen-toggle.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-fullscreen-toggle/navbar-fullscreen-toggle.component.ts",
+        "hash": "6067962402999142916"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-notifications/navbar-notifications.component.html",
+        "hash": "16129953605113599857"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-notifications/navbar-notifications.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-notifications/navbar-notifications.component.ts",
+        "hash": "4146198933370682644"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-user/navbar-user.component.html",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-user/navbar-user.component.scss",
+        "hash": "1833958206063356480"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar-user/navbar-user.component.ts",
+        "hash": "15751356589938774928"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar.component.html",
+        "hash": "17040423764811813587"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar.component.spec.ts",
+        "hash": "2961714952675281236"
+      },
+      {
+        "file": "src/app/core/layout/navbar/navbar.component.ts",
+        "hash": "4586802363685297657"
+      },
+      {
+        "file": "src/app/core/layout/sidebar/menu.model.ts",
+        "hash": "8885698262636040001"
+      },
+      {
+        "file": "src/app/core/layout/sidebar/nav-data.ts",
+        "hash": "5185006260378892291"
+      },
+      {
+        "file": "src/app/core/layout/sidebar/sidebar.component.html",
+        "hash": "14455604278059583941"
+      },
+      {
+        "file": "src/app/core/layout/sidebar/sidebar.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/core/layout/sidebar/sidebar.component.spec.ts",
+        "hash": "3815617947170464598"
+      },
+      {
+        "file": "src/app/core/layout/sidebar/sidebar.component.ts",
+        "hash": "5703800646051499733"
+      },
+      {
+        "file": "src/app/core/models/vehicle.ts",
+        "hash": "680526566882285027"
+      },
+      {
+        "file": "src/app/shared/carousel/carousel.component.html",
+        "hash": "3210906339243229356"
+      },
+      {
+        "file": "src/app/shared/carousel/carousel.component.scss",
+        "hash": "17544205675969814044"
+      },
+      {
+        "file": "src/app/shared/carousel/carousel.component.spec.ts",
+        "hash": "14527926971066277474"
+      },
+      {
+        "file": "src/app/shared/carousel/carousel.component.ts",
+        "hash": "8937147971470144083"
+      },
+      {
+        "file": "src/app/shared/click-outside/click-outside.directive.ts",
+        "hash": "9233729082296011912"
+      },
+      {
+        "file": "src/app/shared/shared.routes.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/shared/ui/loader/loader.component.html",
+        "hash": "11840442284779228795"
+      },
+      {
+        "file": "src/app/shared/ui/loader/loader.component.scss",
+        "hash": "9946788935514111000"
+      },
+      {
+        "file": "src/app/shared/ui/loader/loader.component.spec.ts",
+        "hash": "1102483381259734310"
+      },
+      {
+        "file": "src/app/shared/ui/loader/loader.component.ts",
+        "hash": "12094332902885300886"
+      },
+      {
+        "file": "src/app/shared/ui/pagetitle/pagetitle.component.html",
+        "hash": "9372996425372529475"
+      },
+      {
+        "file": "src/app/shared/ui/pagetitle/pagetitle.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/shared/ui/pagetitle/pagetitle.component.spec.ts",
+        "hash": "4134964249388971665"
+      },
+      {
+        "file": "src/app/shared/ui/pagetitle/pagetitle.component.ts",
+        "hash": "8242007720777594316"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/fonts/inter/Inter-italic.var.woff2",
+        "hash": "2283011398089021421"
+      },
+      {
+        "file": "src/assets/fonts/inter/Inter-roman.var.woff2",
+        "hash": "15746750612725855840"
+      },
+      {
+        "file": "src/assets/fonts/inter/inter.css",
+        "hash": "12320488218080798281"
+      },
+      {
+        "file": "src/assets/images/.DS_Store",
+        "hash": "8310472380852539613"
+      },
+      {
+        "file": "src/assets/images/carousel-auth/dark-mode-with-variant.png",
+        "hash": "11205994428900114921"
+      },
+      {
+        "file": "src/assets/images/carousel-auth/grey-blue-with-variant.png",
+        "hash": "5404236749768887877"
+      },
+      {
+        "file": "src/assets/images/carousel-auth/orange-with-variant.png",
+        "hash": "12144111405742528656"
+      },
+      {
+        "file": "src/assets/images/carousel-auth/silver-modern-with-variant.png",
+        "hash": "3157633792942005001"
+      },
+      {
+        "file": "src/assets/images/logo/.DS_Store",
+        "hash": "12532153596565312335"
+      },
+      {
+        "file": "src/assets/images/logo/B819A16FD2C5486F.png",
+        "hash": "18269565050134609104"
+      },
+      {
+        "file": "src/assets/images/logo/logo copie 2.svg",
+        "hash": "16726493459753628165"
+      },
+      {
+        "file": "src/assets/images/logo/logo copie 3.svg",
+        "hash": "7568967340735402375"
+      },
+      {
+        "file": "src/assets/images/logo/logo copie.svg",
+        "hash": "7568967340735402375"
+      },
+      {
+        "file": "src/assets/images/logo/logo-text copie 2.svg",
+        "hash": "3644453545715350688"
+      },
+      {
+        "file": "src/assets/images/logo/logo-text copie 3.svg",
+        "hash": "17386622689062703768"
+      },
+      {
+        "file": "src/assets/images/logo/logo-text copie.svg",
+        "hash": "12505277000159933067"
+      },
+      {
+        "file": "src/assets/images/logo/logo-text-color.svg",
+        "hash": "17067705462183414568"
+      },
+      {
+        "file": "src/assets/images/logo/logo-text.svg",
+        "hash": "17386622689062703768"
+      },
+      {
+        "file": "src/assets/images/logo/logo.svg",
+        "hash": "2959631530358624386"
+      },
+      {
+        "file": "src/assets/js/bundlle.js",
+        "hash": "5428879247623807391"
+      },
+      {
+        "file": "src/assets/js/chart-ecommerce.js",
+        "hash": "13084250532819365793"
+      },
+      {
+        "file": "src/assets/js/charts/chart-analytics.js",
+        "hash": "12561322489841895607"
+      },
+      {
+        "file": "src/assets/js/charts/chart-ecommerce.js",
+        "hash": "3653206664026188493"
+      },
+      {
+        "file": "src/assets/js/charts/chart-lms.js",
+        "hash": "5488755331533956604"
+      },
+      {
+        "file": "src/assets/js/charts/chart-sales.js",
+        "hash": "2311423885512490904"
+      },
+      {
+        "file": "src/assets/js/charts/chart-widgets.js",
+        "hash": "126998526705552152"
+      },
+      {
+        "file": "src/assets/js/example-chart.js",
+        "hash": "11668706787060574303"
+      },
+      {
+        "file": "src/assets/js/gd-default.js",
+        "hash": "4716284835122364182"
+      },
+      {
+        "file": "src/assets/js/scripts.js",
+        "hash": "10874561295396587903"
+      },
+      {
+        "file": "src/assets/scss/_bgui_variables.scss",
+        "hash": "11978285705350167264"
+      },
+      {
+        "file": "src/assets/scss/apps/_asterisk.scss",
+        "hash": "7018499001223200094"
+      },
+      {
+        "file": "src/assets/scss/apps/_attach.scss",
+        "hash": "4083459308344167995"
+      },
+      {
+        "file": "src/assets/scss/apps/_chats.scss",
+        "hash": "3552266644976697456"
+      },
+      {
+        "file": "src/assets/scss/apps/_file-manager.scss",
+        "hash": "2419304057767771229"
+      },
+      {
+        "file": "src/assets/scss/apps/_inbox.scss",
+        "hash": "1863498216794463897"
+      },
+      {
+        "file": "src/assets/scss/apps/_messages.scss",
+        "hash": "5837790653930197673"
+      },
+      {
+        "file": "src/assets/scss/apps/_reply-comment.scss",
+        "hash": "18031245205208428346"
+      },
+      {
+        "file": "src/assets/scss/bgui.scss",
+        "hash": "10824074551951265884"
+      },
+      {
+        "file": "src/assets/scss/core/_components.scss",
+        "hash": "1499864413724431500"
+      },
+      {
+        "file": "src/assets/scss/core/_dark-skin.scss",
+        "hash": "1812998337526215074"
+      },
+      {
+        "file": "src/assets/scss/core/_layouts.scss",
+        "hash": "6635842416847500183"
+      },
+      {
+        "file": "src/assets/scss/core/_misc.scss",
+        "hash": "12585861109418367811"
+      },
+      {
+        "file": "src/assets/scss/core/_mode-override.scss",
+        "hash": "17242456754628403580"
+      },
+      {
+        "file": "src/assets/scss/core/_pages.scss",
+        "hash": "667567615469453211"
+      },
+      {
+        "file": "src/assets/scss/core/_preview.scss",
+        "hash": "15710015245057627174"
+      },
+      {
+        "file": "src/assets/scss/core/_style.scss",
+        "hash": "336586212301707430"
+      },
+      {
+        "file": "src/assets/scss/core/_utilites.scss",
+        "hash": "4534233081458312099"
+      },
+      {
+        "file": "src/assets/scss/core/components/_accordions.scss",
+        "hash": "11896397692515905753"
+      },
+      {
+        "file": "src/assets/scss/core/components/_alert.scss",
+        "hash": "6277219159650083180"
+      },
+      {
+        "file": "src/assets/scss/core/components/_badge.scss",
+        "hash": "6426209467954383471"
+      },
+      {
+        "file": "src/assets/scss/core/components/_block.scss",
+        "hash": "14269233682984098645"
+      },
+      {
+        "file": "src/assets/scss/core/components/_card.scss",
+        "hash": "1074915169041149858"
+      },
+      {
+        "file": "src/assets/scss/core/components/_data-list.scss",
+        "hash": "12745649810672350559"
+      },
+      {
+        "file": "src/assets/scss/core/components/_dropdown.scss",
+        "hash": "2876517814842588800"
+      },
+      {
+        "file": "src/assets/scss/core/components/_feature.scss",
+        "hash": "10512399958344588541"
+      },
+      {
+        "file": "src/assets/scss/core/components/_forms.scss",
+        "hash": "1785827039184626706"
+      },
+      {
+        "file": "src/assets/scss/core/components/_icons.scss",
+        "hash": "17674745749598737960"
+      },
+      {
+        "file": "src/assets/scss/core/components/_link.scss",
+        "hash": "11569747980884807882"
+      },
+      {
+        "file": "src/assets/scss/core/components/_list.scss",
+        "hash": "7381538031442933308"
+      },
+      {
+        "file": "src/assets/scss/core/components/_misc.scss",
+        "hash": "10220335821350929913"
+      },
+      {
+        "file": "src/assets/scss/core/components/_modal.scss",
+        "hash": "14351617583183545485"
+      },
+      {
+        "file": "src/assets/scss/core/components/_nav.scss",
+        "hash": "4966680065709636441"
+      },
+      {
+        "file": "src/assets/scss/core/components/_preloader.scss",
+        "hash": "1952836211373822043"
+      },
+      {
+        "file": "src/assets/scss/core/components/_projects.scss",
+        "hash": "15712711672341941117"
+      },
+      {
+        "file": "src/assets/scss/core/components/_rating.scss",
+        "hash": "10526973705744672728"
+      },
+      {
+        "file": "src/assets/scss/core/components/_search.scss",
+        "hash": "10985443051973879662"
+      },
+      {
+        "file": "src/assets/scss/core/components/_sliders.scss",
+        "hash": "10383927635147574043"
+      },
+      {
+        "file": "src/assets/scss/core/components/_stepper.scss",
+        "hash": "12682748770307054466"
+      },
+      {
+        "file": "src/assets/scss/core/components/_table.scss",
+        "hash": "15449648115014087495"
+      },
+      {
+        "file": "src/assets/scss/core/components/_team.scss",
+        "hash": "6835829089013170331"
+      },
+      {
+        "file": "src/assets/scss/core/components/_text.scss",
+        "hash": "11720066293496261495"
+      },
+      {
+        "file": "src/assets/scss/core/components/_title.scss",
+        "hash": "17374297417731781085"
+      },
+      {
+        "file": "src/assets/scss/core/components/_toggle.scss",
+        "hash": "13547531876542117755"
+      },
+      {
+        "file": "src/assets/scss/core/components/_users.scss",
+        "hash": "4697304992492535784"
+      },
+      {
+        "file": "src/assets/scss/core/components/_wgm.scss",
+        "hash": "1842572354380346483"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nioicon.eot",
+        "hash": "11804373040976513049"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nioicon.svg",
+        "hash": "3193950836372791158"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nioicon.ttf",
+        "hash": "3897683786266542368"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nioicon.woff",
+        "hash": "7298057829360344261"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nunito-Bold.eot",
+        "hash": "11257259415445541847"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nunito-Bold.ttf",
+        "hash": "11788898237063487748"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nunito-Bold.woff",
+        "hash": "11700705217826532542"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nunito-Bold.woff2",
+        "hash": "10289114814577677738"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nunito-Regular.eot",
+        "hash": "4463489747388810476"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nunito-Regular.ttf",
+        "hash": "6364667580485598438"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nunito-Regular.woff",
+        "hash": "8559644225237879573"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Nunito-Regular.woff2",
+        "hash": "14479393325361272218"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Bold.eot",
+        "hash": "12499664869594193919"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Bold.ttf",
+        "hash": "18174182275026808633"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Bold.woff",
+        "hash": "11087811141335412859"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Bold.woff2",
+        "hash": "3830915764698783606"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Light.eot",
+        "hash": "4017626450809327050"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Light.ttf",
+        "hash": "16552972647406073007"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Light.woff",
+        "hash": "625878907522283772"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Light.woff2",
+        "hash": "13467921349642817357"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Medium.eot",
+        "hash": "8276307033174799664"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Medium.ttf",
+        "hash": "14805292519774458871"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Medium.woff",
+        "hash": "7935652027391167301"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Medium.woff2",
+        "hash": "13609108798703956030"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Regular.eot",
+        "hash": "11387361378921901445"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Regular.ttf",
+        "hash": "15492350943360116972"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Regular.woff",
+        "hash": "13570603357772986220"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/Roboto-Regular.woff2",
+        "hash": "1166399522734008377"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/_nunito.scss",
+        "hash": "192801482618371902"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/_roboto.scss",
+        "hash": "3289336761210969489"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/bootstrap-icons.woff",
+        "hash": "18412637659741307352"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/bootstrap-icons.woff2",
+        "hash": "126269382129124152"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-brands-400.eot",
+        "hash": "16776253829582066882"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-brands-400.svg",
+        "hash": "7863523647155214972"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-brands-400.ttf",
+        "hash": "10522394695185948296"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-brands-400.woff",
+        "hash": "15366836404385924886"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-brands-400.woff2",
+        "hash": "13816590879021398533"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-regular-400.eot",
+        "hash": "5170651164102975792"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-regular-400.svg",
+        "hash": "539136711407594964"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-regular-400.ttf",
+        "hash": "7378437131080180785"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-regular-400.woff",
+        "hash": "15527681510377137140"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-regular-400.woff2",
+        "hash": "7886803229435663911"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-solid-900.eot",
+        "hash": "14036847081461545749"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-solid-900.svg",
+        "hash": "14988323494784588564"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-solid-900.ttf",
+        "hash": "12107729543022117685"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-solid-900.woff",
+        "hash": "13355405727162749725"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/fa-solid-900.woff2",
+        "hash": "7806853591645496055"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/summernote.eot",
+        "hash": "12022952621256090760"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/summernote.ttf",
+        "hash": "4480212359632633925"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/summernote.woff",
+        "hash": "10533727265488681577"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/summernote.woff2",
+        "hash": "9648694269065884806"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/themify.eot",
+        "hash": "11846161897511615586"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/themify.svg",
+        "hash": "5627134105153672799"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/themify.ttf",
+        "hash": "11897051175552963566"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/themify.woff",
+        "hash": "4475730221220278368"
+      },
+      {
+        "file": "src/assets/scss/core/fonts/tinymce-mobile.woff",
+        "hash": "9031475707251135409"
+      },
+      {
+        "file": "src/assets/scss/core/layouts/_apps.scss",
+        "hash": "12653124825261485796"
+      },
+      {
+        "file": "src/assets/scss/core/layouts/_base.scss",
+        "hash": "8665871858352381417"
+      },
+      {
+        "file": "src/assets/scss/core/layouts/_footer.scss",
+        "hash": "15840695276013687319"
+      },
+      {
+        "file": "src/assets/scss/core/layouts/_header.scss",
+        "hash": "1600687161668226919"
+      },
+      {
+        "file": "src/assets/scss/core/layouts/_menu-main.scss",
+        "hash": "9019423747535983632"
+      },
+      {
+        "file": "src/assets/scss/core/layouts/_sidebar.scss",
+        "hash": "12035125977526602639"
+      },
+      {
+        "file": "src/assets/scss/core/layouts/_split.scss",
+        "hash": "14486067825514202392"
+      },
+      {
+        "file": "src/assets/scss/core/pages/auths/base.scss",
+        "hash": "503806541367663424"
+      },
+      {
+        "file": "src/assets/scss/core/pages/errors/base.scss",
+        "hash": "6345605432696553170"
+      },
+      {
+        "file": "src/assets/scss/core/pages/misc.scss",
+        "hash": "10418494484064456209"
+      },
+      {
+        "file": "src/assets/scss/core/utilites/_noclass.scss",
+        "hash": "16744458716541191725"
+      },
+      {
+        "file": "src/assets/scss/core/utilites/_reboot.scss",
+        "hash": "12333551115151873739"
+      },
+      {
+        "file": "src/assets/scss/core/utilites/_sizing.scss",
+        "hash": "16354162695504774202"
+      },
+      {
+        "file": "src/assets/scss/core/utilites/_spacing.scss",
+        "hash": "9127972931415007835"
+      },
+      {
+        "file": "src/assets/scss/editors/quill.scss",
+        "hash": "2380291069809709007"
+      },
+      {
+        "file": "src/assets/scss/editors/summernote.scss",
+        "hash": "13912639458239724543"
+      },
+      {
+        "file": "src/assets/scss/editors/tinymce.scss",
+        "hash": "15429282632302403729"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/_bootstrap.scss",
+        "hash": "12363216897291835137"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/_extend.scss",
+        "hash": "12994064083542536545"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/_variables.scss",
+        "hash": "6140557500405425384"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_alert.scss",
+        "hash": "8365382646951590488"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_badge.scss",
+        "hash": "3774660692579698435"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_breadcrumb.scss",
+        "hash": "2312599680963544556"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_button-group.scss",
+        "hash": "13511109960167277288"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_buttons.scss",
+        "hash": "17553723900134373411"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_card.scss",
+        "hash": "11004441004802417985"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_custom-forms.scss",
+        "hash": "13589534831326459175"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_dropdown.scss",
+        "hash": "10926254625804121654"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_forms.scss",
+        "hash": "3331263733983015665"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_grid.scss",
+        "hash": "4703061415146212202"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_link.scss",
+        "hash": "17583064095683504436"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_media.scss",
+        "hash": "3838107623586514838"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_modal.scss",
+        "hash": "5016540963803339924"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_nav.scss",
+        "hash": "1681533932549893460"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_pagination.scss",
+        "hash": "13807139480346877946"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_placeholders.scss",
+        "hash": "17752871367131450842"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_progress.scss",
+        "hash": "15201176009930525177"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_tables.scss",
+        "hash": "1387947048756914140"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/components/_toast.scss",
+        "hash": "5783747032771790056"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_background.scss",
+        "hash": "7018127015121639198"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_borders.scss",
+        "hash": "16983996297904671387"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_common.scss",
+        "hash": "11379785951132856999"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_flex.scss",
+        "hash": "17495992812570122955"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_position.scss",
+        "hash": "5058286572695988309"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_reboot.scss",
+        "hash": "608930856702923965"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_sizing.scss",
+        "hash": "8003770524140050444"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_spacing.scss",
+        "hash": "12456586771923332526"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_text.scss",
+        "hash": "11502949526560774953"
+      },
+      {
+        "file": "src/assets/scss/extend/bootstrap/utilites/_type.scss",
+        "hash": "16126599849813201542"
+      },
+      {
+        "file": "src/assets/scss/global/_style.scss",
+        "hash": "6283962921406849616"
+      },
+      {
+        "file": "src/assets/scss/global/comps/_profiles.scss",
+        "hash": "5956271535118371321"
+      },
+      {
+        "file": "src/assets/scss/global/comps/_tb-compact.scss",
+        "hash": "7548888432948369588"
+      },
+      {
+        "file": "src/assets/scss/global/comps/_tb-odr.scss",
+        "hash": "5005450689363200662"
+      },
+      {
+        "file": "src/assets/scss/global/comps/_tb-tnx.scss",
+        "hash": "16151699438818924268"
+      },
+      {
+        "file": "src/assets/scss/global/comps/_wizard.scss",
+        "hash": "16232470510214807099"
+      },
+      {
+        "file": "src/assets/scss/global/tables/_base.scss",
+        "hash": "6460885456989312561"
+      },
+      {
+        "file": "src/assets/scss/global/tables/_tranx.scss",
+        "hash": "16144251254081821753"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_db-analytic.scss",
+        "hash": "13760035093016777645"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_db-invest.scss",
+        "hash": "9209787294455252292"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_ecommerce.scss",
+        "hash": "8674776885563958108"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_gallery.scss",
+        "hash": "1095688660326973823"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_invoice.scss",
+        "hash": "17308924847800378358"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_misc.scss",
+        "hash": "3139398496899769735"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_pricing.scss",
+        "hash": "9707637543147534247"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_products.scss",
+        "hash": "6983581407387745722"
+      },
+      {
+        "file": "src/assets/scss/global/wgs/_timeline.scss",
+        "hash": "15393659531830768558"
+      },
+      {
+        "file": "src/assets/scss/libs/bootstrap-icons.scss",
+        "hash": "6253313323142293041"
+      },
+      {
+        "file": "src/assets/scss/libs/fontawesome-icons.scss",
+        "hash": "840269253014224295"
+      },
+      {
+        "file": "src/assets/scss/libs/jstree.scss",
+        "hash": "3237332014356269054"
+      },
+      {
+        "file": "src/assets/scss/libs/themify-icons.scss",
+        "hash": "9131036677707416319"
+      },
+      {
+        "file": "src/assets/scss/skins/_variable_blue.scss",
+        "hash": "5306781766436724221"
+      },
+      {
+        "file": "src/assets/scss/skins/_variable_bluelite.scss",
+        "hash": "11489683988141402618"
+      },
+      {
+        "file": "src/assets/scss/skins/_variable_egyptian.scss",
+        "hash": "9137874750985826538"
+      },
+      {
+        "file": "src/assets/scss/skins/_variable_purple.scss",
+        "hash": "12750111630112573491"
+      },
+      {
+        "file": "src/assets/scss/skins/_variable_red.scss",
+        "hash": "15416605327746076824"
+      },
+      {
+        "file": "src/assets/scss/skins/theme-blue.scss",
+        "hash": "18097670876953173980"
+      },
+      {
+        "file": "src/assets/scss/skins/theme-bluelite.scss",
+        "hash": "8003919462969618488"
+      },
+      {
+        "file": "src/assets/scss/skins/theme-egyptian.scss",
+        "hash": "16801367064307110658"
+      },
+      {
+        "file": "src/assets/scss/skins/theme-purple.scss",
+        "hash": "2218317517987021420"
+      },
+      {
+        "file": "src/assets/scss/skins/theme-red.scss",
+        "hash": "6416637120955976052"
+      },
+      {
+        "file": "src/assets/scss/vendors/_dragula.scss",
+        "hash": "15520009676711139565"
+      },
+      {
+        "file": "src/assets/scss/vendors/_fullcalendar.scss",
+        "hash": "14210859184189732905"
+      },
+      {
+        "file": "src/assets/scss/vendors/_jkanban.scss",
+        "hash": "15990459592332167848"
+      },
+      {
+        "file": "src/assets/scss/vendors/_jqvmap.scss",
+        "hash": "12663421182861298827"
+      },
+      {
+        "file": "src/assets/scss/vendors/_map.scss",
+        "hash": "15743140963754249111"
+      },
+      {
+        "file": "src/assets/scss/vendors/_prettify.scss",
+        "hash": "5394012247356086847"
+      },
+      {
+        "file": "src/assets/scss/vendors/_simplebar.scss",
+        "hash": "16311742247798133745"
+      },
+      {
+        "file": "src/assets/scss/vendors/_tagify.scss",
+        "hash": "18294603554483554913"
+      },
+      {
+        "file": "src/assets/scss/vendors/bootstrap-icons/_bootstrap-icons.scss",
+        "hash": "8798304500914783641"
+      },
+      {
+        "file": "src/assets/scss/vendors/bundle.scss",
+        "hash": "7480157980938303441"
+      },
+      {
+        "file": "src/assets/scss/vendors/datatable/_buttons.bootstrap4.scss",
+        "hash": "4856278046333436199"
+      },
+      {
+        "file": "src/assets/scss/vendors/datatable/_datatable.scss",
+        "hash": "9129479778127760273"
+      },
+      {
+        "file": "src/assets/scss/vendors/datepicker/_bootstrap-datepicker.scss",
+        "hash": "14037224559014863156"
+      },
+      {
+        "file": "src/assets/scss/vendors/dropzone/_dropzone.scss",
+        "hash": "10406318134406640771"
+      },
+      {
+        "file": "src/assets/scss/vendors/dual-listbox/_dual-listbox.scss",
+        "hash": "16453271762842163891"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_animated.scss",
+        "hash": "16312924147805444478"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_bordered-pulled.scss",
+        "hash": "11249680936925800561"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_core.scss",
+        "hash": "3875916536792377516"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_fixed-width.scss",
+        "hash": "12116588681142435013"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_icons.scss",
+        "hash": "17240388484116011209"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_larger.scss",
+        "hash": "5292904951342715819"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_list.scss",
+        "hash": "8547733483677159169"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_mixins.scss",
+        "hash": "10436699696604353084"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_rotated-flipped.scss",
+        "hash": "2662157619597621709"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_screen-reader.scss",
+        "hash": "4653483442176132523"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_shims.scss",
+        "hash": "8297926401554734483"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_stacked.scss",
+        "hash": "15450936251133195359"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/_variables.scss",
+        "hash": "6820892834905279918"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/brands.scss",
+        "hash": "9410593436572850211"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/fontawesome.scss",
+        "hash": "11543113971580219411"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/regular.scss",
+        "hash": "17298946009242502254"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/solid.scss",
+        "hash": "3793642937341186852"
+      },
+      {
+        "file": "src/assets/scss/vendors/fontawesome/v4-shims.scss",
+        "hash": "5824661574878249062"
+      },
+      {
+        "file": "src/assets/scss/vendors/jsTree/_style.scss",
+        "hash": "8852621464838159542"
+      },
+      {
+        "file": "src/assets/scss/vendors/magnific-popup/_main.scss",
+        "hash": "15539888803022474118"
+      },
+      {
+        "file": "src/assets/scss/vendors/magnific-popup/_settings.scss",
+        "hash": "12720321383770159530"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/_variables.scss",
+        "hash": "69299995579522263"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nioicon.eot",
+        "hash": "11804373040976513049"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nioicon.svg",
+        "hash": "3193950836372791158"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nioicon.ttf",
+        "hash": "3897683786266542368"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nioicon.woff",
+        "hash": "7298057829360344261"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nunito-Bold.eot",
+        "hash": "11257259415445541847"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nunito-Bold.ttf",
+        "hash": "11788898237063487748"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nunito-Bold.woff",
+        "hash": "11700705217826532542"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nunito-Bold.woff2",
+        "hash": "10289114814577677738"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nunito-Regular.eot",
+        "hash": "4463489747388810476"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nunito-Regular.ttf",
+        "hash": "6364667580485598438"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nunito-Regular.woff",
+        "hash": "8559644225237879573"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Nunito-Regular.woff2",
+        "hash": "14479393325361272218"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Bold.eot",
+        "hash": "12499664869594193919"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Bold.ttf",
+        "hash": "18174182275026808633"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Bold.woff",
+        "hash": "11087811141335412859"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Bold.woff2",
+        "hash": "3830915764698783606"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Light.eot",
+        "hash": "4017626450809327050"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Light.ttf",
+        "hash": "16552972647406073007"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Light.woff",
+        "hash": "625878907522283772"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Light.woff2",
+        "hash": "13467921349642817357"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Medium.eot",
+        "hash": "8276307033174799664"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Medium.ttf",
+        "hash": "14805292519774458871"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Medium.woff",
+        "hash": "7935652027391167301"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Medium.woff2",
+        "hash": "13609108798703956030"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Regular.eot",
+        "hash": "11387361378921901445"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Regular.ttf",
+        "hash": "15492350943360116972"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Regular.woff",
+        "hash": "13570603357772986220"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/Roboto-Regular.woff2",
+        "hash": "1166399522734008377"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/_nunito.scss",
+        "hash": "192801482618371902"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/_roboto.scss",
+        "hash": "3289336761210969489"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/bootstrap-icons.woff",
+        "hash": "18412637659741307352"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/bootstrap-icons.woff2",
+        "hash": "126269382129124152"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-brands-400.eot",
+        "hash": "16776253829582066882"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-brands-400.svg",
+        "hash": "7863523647155214972"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-brands-400.ttf",
+        "hash": "10522394695185948296"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-brands-400.woff",
+        "hash": "15366836404385924886"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-brands-400.woff2",
+        "hash": "13816590879021398533"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-regular-400.eot",
+        "hash": "5170651164102975792"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-regular-400.svg",
+        "hash": "539136711407594964"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-regular-400.ttf",
+        "hash": "7378437131080180785"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-regular-400.woff",
+        "hash": "15527681510377137140"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-regular-400.woff2",
+        "hash": "7886803229435663911"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-solid-900.eot",
+        "hash": "14036847081461545749"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-solid-900.svg",
+        "hash": "14988323494784588564"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-solid-900.ttf",
+        "hash": "12107729543022117685"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-solid-900.woff",
+        "hash": "13355405727162749725"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/fa-solid-900.woff2",
+        "hash": "7806853591645496055"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/summernote.eot",
+        "hash": "12022952621256090760"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/summernote.ttf",
+        "hash": "4480212359632633925"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/summernote.woff",
+        "hash": "10533727265488681577"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/summernote.woff2",
+        "hash": "9648694269065884806"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/themify.eot",
+        "hash": "11846161897511615586"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/themify.svg",
+        "hash": "5627134105153672799"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/themify.ttf",
+        "hash": "11897051175552963566"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/themify.woff",
+        "hash": "4475730221220278368"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/fonts/tinymce-mobile.woff",
+        "hash": "9031475707251135409"
+      },
+      {
+        "file": "src/assets/scss/vendors/nioicon/nioicon.scss",
+        "hash": "5211398516832537449"
+      },
+      {
+        "file": "src/assets/scss/vendors/nouislider/_nouislider.scss",
+        "hash": "11208439168375428828"
+      },
+      {
+        "file": "src/assets/scss/vendors/quill/_quill.scss",
+        "hash": "1471215298282612619"
+      },
+      {
+        "file": "src/assets/scss/vendors/select2/_dropdown.scss",
+        "hash": "7824149404198501976"
+      },
+      {
+        "file": "src/assets/scss/vendors/select2/_multiple.scss",
+        "hash": "2568008977698566527"
+      },
+      {
+        "file": "src/assets/scss/vendors/select2/_single.scss",
+        "hash": "3631520005248609627"
+      },
+      {
+        "file": "src/assets/scss/vendors/select2/core.scss",
+        "hash": "17771554864121473092"
+      },
+      {
+        "file": "src/assets/scss/vendors/select2/mixins/_gradients.scss",
+        "hash": "5017409125950840526"
+      },
+      {
+        "file": "src/assets/scss/vendors/select2/theme/default/_multiple.scss",
+        "hash": "1916559274001381048"
+      },
+      {
+        "file": "src/assets/scss/vendors/select2/theme/default/_single.scss",
+        "hash": "8948647451144964156"
+      },
+      {
+        "file": "src/assets/scss/vendors/select2/theme/default/layout.scss",
+        "hash": "7484266711425557087"
+      },
+      {
+        "file": "src/assets/scss/vendors/slick/_slick.scss",
+        "hash": "15025529042923661479"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/_common.scss",
+        "hash": "2083983259789793547"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/_elements.scss",
+        "hash": "1836824033011134968"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/_font.scss",
+        "hash": "17071428013882344515"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_btn-group.scss",
+        "hash": "6867780342179076971"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_buttons.scss",
+        "hash": "12507937377020025777"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_common.scss",
+        "hash": "12340391209858787523"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_dropdown.scss",
+        "hash": "16037496122963736979"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_form.scss",
+        "hash": "16320678343285780873"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_mixins.scss",
+        "hash": "17321861695569979232"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_modal.scss",
+        "hash": "3867895007242448936"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_popover.scss",
+        "hash": "4260322102572319470"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_toolbar.scss",
+        "hash": "10138725661165466585"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_tooltip.scss",
+        "hash": "1244258450635167219"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/_variables.scss",
+        "hash": "715687316312463979"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/styles/mixins/buttons.scss",
+        "hash": "10967554279829549159"
+      },
+      {
+        "file": "src/assets/scss/vendors/summernote/summernote-lite.scss",
+        "hash": "10783916355623834610"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/_sweetalert2.scss",
+        "hash": "2411942254049802242"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_animations.scss",
+        "hash": "6119168130726003974"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_body.scss",
+        "hash": "5841741017794888330"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_core.scss",
+        "hash": "7434594906046204489"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_mixins.scss",
+        "hash": "13520111147791921679"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_polyfills.scss",
+        "hash": "17538589081458768258"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_theming.scss",
+        "hash": "12154915650438485198"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_toasts-animations.scss",
+        "hash": "4076543608434787567"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_toasts-body.scss",
+        "hash": "14439900312705484962"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/scss/_toasts.scss",
+        "hash": "11514979730765563778"
+      },
+      {
+        "file": "src/assets/scss/vendors/sweetalert2/variables.scss",
+        "hash": "14982584774917966478"
+      },
+      {
+        "file": "src/assets/scss/vendors/themify-icons/_themify-icons.scss",
+        "hash": "11608323840009508077"
+      },
+      {
+        "file": "src/assets/scss/vendors/timepicker/_jquery.timepicker.scss",
+        "hash": "7108922535825953294"
+      },
+      {
+        "file": "src/assets/scss/vendors/tinymce/_content.scss",
+        "hash": "3387133748424716090"
+      },
+      {
+        "file": "src/assets/scss/vendors/tinymce/ui/_content.inline.scss",
+        "hash": "963612128331619866"
+      },
+      {
+        "file": "src/assets/scss/vendors/tinymce/ui/_content.mobile.scss",
+        "hash": "949954887743801885"
+      },
+      {
+        "file": "src/assets/scss/vendors/tinymce/ui/_content.scss",
+        "hash": "1820898329035797253"
+      },
+      {
+        "file": "src/assets/scss/vendors/tinymce/ui/_skin.mobile.scss",
+        "hash": "12358460228469786817"
+      },
+      {
+        "file": "src/assets/scss/vendors/tinymce/ui/_skin.scss",
+        "hash": "44692334137271745"
+      },
+      {
+        "file": "src/assets/scss/vendors/toastr/_toastr.scss",
+        "hash": "11699599417267177419"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "883487168083483059"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3464744996580215640"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "13351544930801564371"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "16523111549723071324"
+      },
+      {
+        "file": "src/styles.scss",
+        "hash": "6335105767903208469"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "17337579397915052279"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1047940026627514556"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "15575553540147145788"
+      }
+    ]
+  }
+}

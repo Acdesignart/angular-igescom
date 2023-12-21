@@ -1,0 +1,67 @@
+.bVtdrh {
+  height: 100px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  box-sizing: content-box!important;
+}
+
+.fJNpxn.fJNpxn.fJNpxn {
+  overflow: visible;
+}
+
+.fJNpxn {
+  margin-left: auto;
+  margin-right: auto;
+  animation: 1.116s linear 0s infinite normal none running cJiLXh;
+  display: block;
+  padding: 1.5px;
+  height: 24px;
+  width: 24px;
+  box-sizing: content-box!important;
+}
+
+.zqvWX {
+  fill: none;
+  stroke: rgba(0,0,0,0.05) ;
+  stroke-width: 8;
+}
+
+
+
+.cmLpsk {
+  animation: 1.8s cubic-bezier(0.445, 0.05, 0.55, 0.95) 0s infinite normal none running fnezX;
+  fill: none;
+  stroke: #00875A;
+  stroke-dasharray: 180;
+  transform-origin: center center;
+  stroke-width: 8;
+}
+
+@keyframes cJiLXh {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes fnezX{
+  0% {
+    stroke-dashoffset: 162;
+    transform: rotate(0deg);
+  }
+  50% {
+    stroke-dashoffset: 90;
+  }
+  100% {
+    stroke-dashoffset: 162;
+    transform: rotate(360deg);
+  }
+}
+

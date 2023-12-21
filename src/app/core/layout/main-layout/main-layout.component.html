@@ -1,0 +1,71 @@
+<main class="has-sidebar">
+  <div class="nk-app-root">
+    <div class="nk-main">
+      <div
+        class="nk-sidebar nk-sidebar-fixed is-dark"
+        [ngClass]="{ 'is-compact': menuCompact }">
+        <div class="nk-sidebar-element nk-sidebar-head">
+          <div class="nk-sidebar-brand">
+            <a class="logo-link nk-sidebar-logo">
+              <img
+                class="logo-light logo-img"
+                src="assets/images/logo/logo-text.svg"
+                srcset="./images/logo2x.png 2x"
+                alt="logo"
+                height="40" />
+              <img
+                class="logo-dark logo-img"
+                src="assets/images/logo/logo-text.svg "
+                srcset="./images/logo-dark2x.png 2x"
+                alt="logo-dark"
+                height="40" />
+              <img
+                class="logo-small logo-img logo-img-small"
+                src="assets/images/logo/logo.svg"
+                srcset="./images/logo-small2x.png 2x"
+                alt="logo-small" />
+            </a>
+          </div>
+          <div class="nk-menu-trigger me-n2">
+            <a
+              class="nk-nav-toggle nk-quick-nav-icon d-xl-none"
+              data-target="sidebarMenu"
+              ><em class="icon ni ni-arrow-left"></em
+            ></a>
+            <a
+              class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex"
+              data-target="sidebarMenu"
+              ><mat-icon
+                fontSet="material-icons-round "
+                class="icon nk-menu-icon-sid"
+                (click)="actionMenuCompact()"
+                >trip_origin</mat-icon
+              ></a
+            >
+          </div>
+        </div>
+        <bgui-sidebar class="active"></bgui-sidebar>
+      </div>
+      <div class="nk-wrap">
+        <bgui-navbar
+          class="nk-header nk-header-fixed is-light"
+          *ngIf="showHeader">
+        </bgui-navbar>
+
+        <!-- content @s -->
+        <div class="nk-content">
+          <div class="container-fluid">
+            <div class="nk-content-inner">
+              <div class="nk-content-body">
+                <router-outlet></router-outlet>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content @e -->
+      </div>
+    </div>
+
+    <bgui-footer></bgui-footer>
+  </div>
+</main>

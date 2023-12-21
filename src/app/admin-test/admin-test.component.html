@@ -1,0 +1,296 @@
+<div class="nk-block-head nk-block-head-sm">
+  <div class="nk-block-between">
+    <bgui-pagetitle
+      title="Tableau De Bord beasy"
+      [breadcrumbItems]="breadCrumbItems"></bgui-pagetitle>
+  </div>
+</div>
+<div class="nk-block">
+  <div class="row g-gs">
+    <div class="col-xxl-3 col-sm-6">
+      <div class="card">
+        <div class="nk-ecwg nk-ecwg6">
+          <div class="card-inner">
+            <div class="card-title-group">
+              <div class="card-title">
+                <h6 class="title">Montant Total Transactions</h6>
+              </div>
+            </div>
+            <div class="data">
+              <div class="data-group">
+                <div class="amount">0</div>
+                <div class="nk-ecwg6-ck">
+                  <canvas
+                    class="ecommerce-line-chart-s3"
+                    id="todayOrders"></canvas>
+                </div>
+              </div>
+              <div class="info">
+                <span class="change up text-danger"
+                  ><em class="icon ni ni-arrow-long-up"></em>4.63%</span
+                ><span> vs. semaine dernière</span>
+              </div>
+            </div>
+          </div>
+          <!-- .card-inner -->
+        </div>
+        <!-- .nk-ecwg -->
+      </div>
+      <!-- .card -->
+    </div>
+    <!-- .col -->
+    <div class="col-xxl-3 col-sm-6">
+      <div class="card">
+        <div class="nk-ecwg nk-ecwg6">
+          <div class="card-inner">
+            <div class="card-title-group">
+              <div class="card-title">
+                <h6 class="title">Nbre de Transaction</h6>
+              </div>
+            </div>
+            <div class="data">
+              <div class="data-group">
+                <div class="amount">0</div>
+                <div class="nk-ecwg6-ck">
+                  <canvas
+                    class="ecommerce-line-chart-s3"
+                    id="todayRevenue"></canvas>
+                </div>
+              </div>
+              <div class="info">
+                <span class="change down text-danger"
+                  ><em class="icon ni ni-arrow-long-down"></em>2.34%</span
+                ><span> vs. semaine dernière</span>
+              </div>
+            </div>
+          </div>
+          <!-- .card-inner -->
+        </div>
+        <!-- .nk-ecwg -->
+      </div>
+      <!-- .card -->
+    </div>
+    <!-- .col -->
+    <div class="col-xxl-3 col-sm-6">
+      <div class="card">
+        <div class="nk-ecwg nk-ecwg6">
+          <div class="card-inner">
+            <div class="card-title-group">
+              <div class="card-title">
+                <h6 class="title">Taux de Réussite</h6>
+              </div>
+            </div>
+            <div class="data">
+              <div class="data-group">
+                <div class="amount">0%</div>
+                <div class="nk-ecwg6-ck">
+                  <canvas
+                    class="ecommerce-line-chart-s3"
+                    id="todayCustomers"></canvas>
+                </div>
+              </div>
+              <div class="info">
+                <span class="change up text-danger"
+                  ><em class="icon ni ni-arrow-long-up"></em>4.63%</span
+                ><span> vs. semaine dernière</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xxl-3 col-sm-6">
+      <div class="card">
+        <div class="nk-ecwg nk-ecwg6">
+          <div class="card-inner">
+            <div class="card-title-group">
+              <div class="card-title">
+                <h6 class="title">Litige Ouvert</h6>
+              </div>
+            </div>
+            <div class="data">
+              <div class="data-group">
+                <div class="amount">0</div>
+                <div class="nk-ecwg6-ck">
+                  <canvas
+                    class="ecommerce-line-chart-s3"
+                    id="todayVisitors"></canvas>
+                </div>
+              </div>
+              <div class="info">
+                <span class="change down text-danger"
+                  ><em class="icon ni ni-arrow-long-down"></em>0</span
+                ><span>Montant du Litige</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xxl-6">
+      <div class="card card-full">
+        <div class="nk-ecwg nk-ecwg8 h-100">
+          <div class="card-inner">
+            <div class="card-title-group mb-3">
+              <div class="card-title">
+                <h6 class="title">Statistiques Des Transactions</h6>
+              </div>
+              <div class="card-tools">
+                <div class="dropdown">
+                  <a
+                    href="#"
+                    class="dropdown-toggle link link-light link-sm dropdown-indicator"
+                    data-bs-toggle="dropdown"
+                    >Semaine</a
+                  >
+                  <div class="dropdown-menu dropdown-menu-sm dropdown-menu-end">
+                    <ul class="link-list-opt no-bdr">
+                      <li>
+                        <a href="#"><span>Jour</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="active"><span>Semaine</span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span>Mois</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="nk-ecwg8-legends">
+              <li>
+                <div class="title">
+                  <span class="dot dot-lg sq" data-bg="#0fac81"></span>
+                  <span>Transaction</span>
+                </div>
+              </li>
+              <li>
+                <div class="title">
+                  <span class="dot dot-lg sq" data-bg="#eb6459"></span>
+                  <span>Transaction Annulé</span>
+                </div>
+              </li>
+            </ul>
+            <div class="nk-ecwg8-ck">
+              <canvas
+                class="ecommerce-line-chart-s4"
+                id="salesStatistics"></canvas>
+            </div>
+            <div class="chart-label-group ps-5">
+              <div class="chart-label">01 Septembre, 2023</div>
+              <div class="chart-label">30 Septembre, 2023</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xxl-6 col-lg-6">
+      <div class="card card-full overflow-hidden">
+        <div class="nk-ecwg nk-ecwg4 h-100">
+          <div class="card-inner flex-grow-1">
+            <div class="card-title-group mb-4">
+              <div class="card-title">
+                <h6 class="title">Analyse Des Modes de Paiement</h6>
+              </div>
+              <div class="card-tools">
+                <div class="dropdown">
+                  <a
+                    href="#"
+                    class="dropdown-toggle link link-light link-sm dropdown-indicator"
+                    data-bs-toggle="dropdown"
+                    >30 Jours</a
+                  >
+                  <div class="dropdown-menu dropdown-menu-sm dropdown-menu-end">
+                    <ul class="link-list-opt no-bdr">
+                      <li>
+                        <a href="#"><span>15 Jours</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="active"><span>30 Jours</span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span>3 Mois</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="data-group">
+              <div class="nk-ecwg4-ck">
+                <canvas
+                  class="ecommerce-doughnut-s1"
+                  id="trafficSources"
+                  width="210"
+                  height="210"
+                  style="
+                    display: block;
+                    box-sizing: border-box;
+                    height: 210px;
+                    width: 210px;
+                  "></canvas>
+              </div>
+              <ul class="nk-ecwg4-legends">
+                <li>
+                  <div class="title">
+                    <span
+                      class="dot dot-lg sq"
+                      data-bg="#0fac81"
+                      style="background: rgb(227, 29, 26)"></span>
+                    <span>UBA (United Bank for Africa)</span>
+                  </div>
+                  <div class="amount amount-xs">0 XOF</div>
+                </li>
+                <li>
+                  <div class="title">
+                    <span
+                      class="dot dot-lg sq"
+                      data-bg="#e85347"
+                      style="background: rgb(255, 121, 0)"></span>
+                    <span>Orange Money</span>
+                  </div>
+                  <div class="amount amount-xs">0 XOF</div>
+                </li>
+                <li>
+                  <div class="title">
+                    <span
+                      class="dot dot-lg sq"
+                      data-bg="#ffa9ce"
+                      style="background: rgb(249, 219, 123)"></span>
+                    <span>MTN MoMo</span>
+                  </div>
+                  <div class="amount amount-xs">0 XOF</div>
+                </li>
+                <li>
+                  <div class="title">
+                    <span
+                      class="dot dot-lg sq"
+                      data-bg="#f9db7b"
+                      style="background: rgb(1, 92, 170)"></span>
+                    <span>Moov Money</span>
+                  </div>
+                  <div class="amount amount-xs">0 XOF</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-inner card-inner-md bg-light">
+            <div class="card-note">
+              <em class="icon ni ni-info-fill"></em>
+              <span
+                >statistiques sur la répartition des transactions par mode</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

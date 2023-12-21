@@ -1,0 +1,15 @@
+<!-- breadcrumb item -->
+
+<div class="nk-block-head-content">
+  <h3 class="nk-block-title page-title">{{ title }}</h3>
+  <div class="nk-block-des text-soft">
+    <ng-container *ngFor="let item of breadcrumbItems">
+      <div class="nk-block-des text-soft" *ngIf="!item.active">
+        <p>{{ item.label }}</p>
+      </div>
+      <li class="nk-block-des text-soft active" *ngIf="item.active">
+        {{ item.label }}
+      </li>
+    </ng-container>
+  </div>
+</div>

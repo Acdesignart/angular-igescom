@@ -1,0 +1,52 @@
+.example-container {
+  max-height: 525px;
+  overflow: auto;
+}
+
+
+
+.mat-column-position {
+  width: 32px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-designat {
+  padding-left: 16px;
+}
+
+.mat-column-montant {
+
+  text-align: right;
+  font-weight: bold;
+}
+
+
+
+
+
+.my-scrollbar {
+  --scrollbar-border-radius: 10px;
+  --scrollbar-padding: 1px;
+  --scrollbar-viewport-margin: 0;
+  --scrollbar-track-color: rgba(0, 0, 0, 0.15);
+  --scrollbar-wrapper-color: transparent;
+  --scrollbar-thumb-color: rgba(0, 0, 0, 0.2);
+  --scrollbar-thumb-hover-color: var(--scrollbar-thumb-color);
+  --scrollbar-size: 6px;
+  --scrollbar-overscroll-behavior: initial;
+  --scrollbar-hover-size: 10px;
+  --scrollbar-transition-duration: 400ms;
+  --scrollbar-transition-delay: 800ms;
+  --scrollbar-thumb-transition: height ease-out 150ms, width ease-out 150ms;
+  --scrollbar-track-transition: height ease-out 150ms, width ease-out 150ms;
+}
+
+
+
+
+.mat-mdc-table {
+  height: 25px;
+}
+
+

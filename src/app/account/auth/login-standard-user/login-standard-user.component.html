@@ -1,0 +1,100 @@
+<section
+  class="fxt-template-animation bgui-bg-color-grey fxt-template-layout20">
+  <div class="container">
+    <div
+      [class.mat-elevation-z1]="!isActive"
+      class="row fxt-bg-color fxt-templateshadow-01">
+      <div class="col-xl-7 col-lg-6 col-12 fxt-none-991 fxt-bg-img">
+        <bgui-carousel [images]="images" [autoSlide]="true"></bgui-carousel>
+      </div>
+      <div class="col-xl-5 col-lg-6 col-12">
+        <div class="fxt-content">
+          <div class="fxt-header">
+            <a href="#" class="fxt-logo"
+              ><img
+                src="assets/images/logo/logo-text-color.svg"
+                height="70"
+                alt="Logo"
+            /></a>
+            <h2>Bienvenue!</h2>
+            <p>Se connecter avec son compte</p>
+            <ul class="fxt-socials"></ul>
+          </div>
+          <div class="fxt-form">
+            <form method="POST">
+              <div class="form-group">
+                <div class="fxt-transformY-50 fxt-transition-delay-1">
+                  <mat-form-field class="gui-form-width" appearance="fill">
+                    <mat-label>Identifiant</mat-label>
+                    <input
+                      matInput
+                      placeholder="pat@example.com"
+                      [formControl]="email"
+                      required />
+                    <mat-error *ngIf="email.invalid">{{
+                      getErrorMessage()
+                    }}</mat-error>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="fxt-transformY-50 fxt-transition-delay-2">
+                  <mat-form-field class="gui-form-width" appearance="fill">
+                    <mat-label>Mot de passe</mat-label>
+                    <input matInput [type]="hide ? 'password' : 'text'" />
+                    <button
+                      mat-icon-button
+                      matSuffix
+                      (click)="hide = !hide"
+                      [attr.aria-label]="'Hide password'"
+                      [attr.aria-pressed]="hide">
+                      <mat-icon>{{
+                        hide ? 'visibility_off' : 'visibility'
+                      }}</mat-icon>
+                    </button>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="fxt-transformY-50 fxt-transition-delay-3">
+                  <div class="fxt-checkbox-area">
+                    <div class="checkbox">
+                      <mat-checkbox class="caption"
+                        >Se souvenir de moi</mat-checkbox
+                      >
+                      <!--<input id="checkbox1" type="checkbox">-->
+                      <!--<label for="checkbox1">Se souvenir de moi</label>-->
+                    </div>
+                    <a href="#" class="switcher-text">Mot de passe oublié?</a>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group m-b-125">
+                <div class="fxt-transformY-50 fxt-transition-delay-4">
+                  <button
+                    mat-raised-button
+                    color="primary"
+                    class="w-100"
+                    [routerLink]="['admin']">
+                    Se Connecter
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="fxt-footer">
+            <div class="fxt-transformY-50 fxt-transition-delay-5">
+              <p>
+                Nouveau sur notre plateforme?<a
+                  href=""
+                  class="switcher-text2 inline-text"
+                  >Créer un compte</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

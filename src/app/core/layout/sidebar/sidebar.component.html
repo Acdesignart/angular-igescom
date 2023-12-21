@@ -1,0 +1,28 @@
+<div class="nk-sidebar-element">
+  <div class="nk-sidebar-content">
+    <div class="nk-sidebar-menu">
+      <ul class="nk-menu">
+        <ng-container *ngFor="let data of navbarData">
+          <li class="nk-menu-heading" *ngIf="data.isTitle">
+            <h6 class="overline-title text-primary-alt">{{ data.label }}</h6>
+          </li>
+          <!-- .nk-menu-item -->
+          <li
+            class="nk-menu-item"
+            *ngIf="!data.isTitle"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">
+            <a [routerLink]="[data.routeLink]" class="nk-menu-link">
+              <span class="nk-menu-icon">
+                <mat-icon fontSet="material-icons-round" class="icon">{{
+                  data.icon
+                }}</mat-icon></span
+              >
+              <span class="nk-menu-text">{{ data.label }}</span>
+            </a>
+          </li>
+        </ng-container>
+      </ul>
+    </div>
+  </div>
+</div>
