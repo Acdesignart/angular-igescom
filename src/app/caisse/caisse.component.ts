@@ -12,13 +12,19 @@ import { NgScrollbarModule } from 'ngx-scrollbar';
 import { SimplebarAngularModule } from 'simplebar-angular';
 import { MatInputModule } from '@angular/material/input';
 import { NgxMatNumberInputSpinnerModule } from 'ngx-mat-number-input-spinner';
+import { MatRippleModule } from '@angular/material/core';
+import { MatDialog } from '@angular/material/dialog';
+import { PaymentTypeComponent } from './components/payment-type/payment-type.component';
 
 interface Transaction {
-  item: string;
   position: number;
+  codeItem: number;
+  item: string;
   puttc: number;
   quantit?: unknown;
+  discount?: unknown | number;
   cost: number;
+  action: unknown;
 }
 
 @Component({
@@ -39,27 +45,141 @@ interface Transaction {
     CurrencyPipe,
     MatInputModule,
     NgxMatNumberInputSpinnerModule,
+    MatRippleModule,
   ],
   templateUrl: './caisse.component.html',
   styleUrls: ['./caisse.component.scss'],
 })
 export class CaisseComponent {
-  displayedColumns = ['position', 'item', 'puttc', 'quantit', 'cost'];
+  constructor(public dialog: MatDialog) {}
+
+  openDialog(
+    enterAnimationDuration: string,
+    exitAnimationDuration: string
+  ): void {
+    this.dialog.open(PaymentTypeComponent, {
+      width: '920px',
+      enterAnimationDuration,
+      exitAnimationDuration,
+      disableClose: true,
+    });
+  }
+
+  displayedColumns = [
+    'position',
+    'codeItem',
+    'item',
+    'puttc',
+    'quantit',
+    'discount',
+    'cost',
+    'action',
+  ];
   numberValue: number | null = null;
   disabled: boolean = false;
   readonly: boolean = false;
 
   transactions: Transaction[] = [
-    {position: 1, item: 'Les Hauts de Hurle-Vent...', puttc: 1.0079, quantit: 19, cost: 1203},
-    {position: 2, item: 'Hauts de Hurle-Vent...', puttc: 4.0026, quantit: 10,cost: 1203},
-    {position: 3, item: 'Hauts de Hurle-Vent', puttc: 6.941, quantit: 12, cost: 1203},
-    {position: 4, item: 'Hauts de Hurle-Vent', puttc: 9.0122, quantit: 23, cost: 1203},
-    {position: 5, item: ' Hauts de Hurle-Vent', puttc: 10.811, quantit: 23, cost: 1203},
-    {position: 6, item: 'Hauts de Hurle-Vent.', puttc: 12.0107, quantit: 34, cost: 1203},
-    {position: 7, item: 'Hauts de Hurle-Vent.', puttc: 14.0067, quantit: 45,cost: 1203},
-    {position: 8, item: 'Hauts de Hurle-Vent.', puttc: 15.9994, quantit: 56, cost: 1203},
-    {position: 9, item: 'Hauts de Hurle-Vent. ', puttc: 18.9984, quantit: 90, cost: 1203},
-    {position: 10, item: 'Les Hauts de Hurle-Vent.', puttc: 20.1797, quantit: 10,cost: 1203},
+    {
+      position: 1,
+      codeItem: 90283,
+      item: 'Les Hauts de Hurle-Vent...',
+      puttc: 1.0079,
+      quantit: 19,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 2,
+      codeItem: 90283,
+      item: 'Hauts de Hurle-Vent...',
+      puttc: 4.0026,
+      quantit: 10,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 3,
+      codeItem: 90283,
+      item: 'Hauts de Hurle-Vent',
+      puttc: 6.941,
+      quantit: 12,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 4,
+      codeItem: 90283,
+      item: 'Hauts de Hurle-Vent',
+      puttc: 9.0122,
+      quantit: 23,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 5,
+      codeItem: 90283,
+      item: ' Hauts de Hurle-Vent',
+      puttc: 10.811,
+      quantit: 23,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 6,
+      codeItem: 90283,
+      item: 'Hauts de Hurle-Vent.',
+      puttc: 12.0107,
+      quantit: 34,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 7,
+      codeItem: 92083,
+      item: 'Hauts de Hurle-Vent.',
+      puttc: 14.0067,
+      quantit: 45,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 8,
+      codeItem: 90283,
+      item: 'Hauts de Hurle-Vent.',
+      puttc: 15.9994,
+      quantit: 56,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 9,
+      codeItem: 92083,
+      item: 'Hauts de Hurle-Vent. ',
+      puttc: 18.9984,
+      quantit: 90,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
+    {
+      position: 10,
+      codeItem: 92083,
+      item: 'Les Hauts de Hurle-Vent.',
+      puttc: 20.1797,
+      quantit: 10,
+      discount: '',
+      cost: 1203,
+      action: '',
+    },
   ];
 
   getTotalCost() {
@@ -67,4 +187,5 @@ export class CaisseComponent {
       .map(t => t.cost)
       .reduce((acc, value) => acc + value, 0);
   }
+  centered = false;
 }

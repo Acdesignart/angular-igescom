@@ -29,6 +29,7 @@
     "material-icons": "^1.13.12",
     "ng-apexcharts": "^1.8.0",
     "ng2-charts": "^5.0.4",
+    "ngx-mask": "^17.0.4",
     "ngx-mat-number-input-spinner": "^1.2.0",
     "ngx-scrollbar": "^13.0.3",
     "rxjs": "~7.8.1",

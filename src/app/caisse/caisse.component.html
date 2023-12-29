@@ -1,5 +1,5 @@
 <div class="row g-gs bgui-fixed bgui-vmaxhs">
-  <div class="col-lg-8 col-xxl-8">
+  <div class="col-lg-4 col-xxl-4">
     <bgui-navbar class="navi card card-bordered"></bgui-navbar>
     <div class="card card-bordered">
       <div class="card-inner">
@@ -8,7 +8,7 @@
     </div>
   </div>
 
-  <div class="col-md-9 col-lg-12 col-xxl-4">
+  <div class="col-md-9 col-lg-12 col-xxl-8">
     <div class="card card-bordered h-100">
       <div class="card-title-group align-start card-header border-bottom">
         <button
@@ -62,11 +62,19 @@
             class="table-1 custom-table">
             <!-- Position Column -->
             <ng-container matColumnDef="position">
-              <th mat-header-cell *matHeaderCellDef>Réf.</th>
+              <th mat-header-cell *matHeaderCellDef>N°</th>
               <td mat-cell *matCellDef="let transaction">
                 {{ transaction.position }}
               </td>
               <td mat-footer-cell *matFooterCellDef>Total</td>
+            </ng-container>
+
+            <ng-container matColumnDef="codeItem">
+              <th mat-header-cell *matHeaderCellDef>Article</th>
+              <td mat-cell *matCellDef="let transaction">
+                {{ transaction.codeItem }}
+              </td>
+              <td mat-footer-cell *matFooterCellDef></td>
             </ng-container>
 
             <!-- Name Column -->
@@ -89,8 +97,6 @@
             <ng-container matColumnDef="quantit">
               <th mat-header-cell *matHeaderCellDef>Quantité</th>
               <td mat-cell *matCellDef="let transaction">
-
-
                 <div class="form-group">
                   <div class="form-control-wrap number-spinner-wrap">
                     <button
@@ -114,6 +120,15 @@
               </td>
               <td mat-footer-cell *matFooterCellDef></td>
             </ng-container>
+            <ng-container matColumnDef="discount">
+              <th mat-header-cell *matHeaderCellDef>Remise(%)</th>
+              <td mat-cell *matCellDef="let transaction">
+                <mat-form-field class="nonex">
+                  <input matInput placeholder="{{ transaction.discount }}" />
+                </mat-form-field>
+              </td>
+              <td mat-footer-cell *matFooterCellDef></td>
+            </ng-container>
 
             <ng-container matColumnDef="cost">
               <th mat-header-cell *matHeaderCellDef>Mont TTC</th>
@@ -123,6 +138,24 @@
               <td mat-footer-cell *matFooterCellDef>
                 {{ getTotalCost() | currency: 'XOF' : '\u20a3' : '1.2-2' }}
               </td>
+            </ng-container>
+
+            <ng-container matColumnDef="action">
+              <th mat-header-cell *matHeaderCellDef></th>
+              <td mat-cell *matCellDef="let transaction">
+                <a href="" class="link-cross me-sm-n1"
+                  ><em class="icon ni">
+                    <button
+                      mat-icon-button
+                      matTooltip="Warn"
+                      color="warn"
+                      aria-label="Example icon-button with a heart icon">
+                      <mat-icon>delete</mat-icon>
+                    </button></em
+                  ></a
+                >
+              </td>
+              <td mat-footer-cell *matFooterCellDef></td>
             </ng-container>
 
             <tr
@@ -265,9 +298,13 @@
                 </div>
               </div>
               <div class="col-sm-3">
-                <div class="card bg-light h-10">
+                <div
+                  matRipple
+                  [matRippleCentered]="centered"
+                  class="card bg-light h-10 example-ripple-container"
+                  (click)="openDialog('400ms', '1500ms')">
                   <div class="p-2">
-                    <a class="nk-wgw-inner" href="#">
+                    <a class="nk-wgw-inner">
                       <div class="nk-wgw-name">
                         <div class="nk-wgw-icon">
                           <em>
