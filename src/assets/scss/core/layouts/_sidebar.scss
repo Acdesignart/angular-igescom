@@ -10,7 +10,7 @@
     left: 0;
     transform: translateX(-100%);
     border-right: 1px solid $sidebar-border-color;
-    z-index: 1021;
+    z-index: 1;
     width: $sidebar-width-normal;
     transition: transform $sidebar-transition-duration $sidebar-transition-name,width $sidebar-transition-duration $sidebar-transition-name;
     box-shadow: 0px 1px 3px 0px rgba($base-color, 0.05);

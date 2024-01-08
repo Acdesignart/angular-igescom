@@ -20,6 +20,7 @@
     "material-icons": "^1.13.12",
     "ng-apexcharts": "^1.8.0",
     "ng2-charts": "^5.0.4",
+    "ngx-mask": "^17.0.4",
     "ngx-mat-number-input-spinner": "^1.2.0",
     "ngx-scrollbar": "^13.0.3",
     "rxjs": "~7.8.1",
@@ -78,7 +79,7 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "11578717763487250075"
+        "hash": "4266490831464923164"
       },
       {
         "file": ".nx/cache/lockfile.hash",
@@ -114,11 +115,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "15019754902531249330"
+        "hash": "4992154996531548641"
       },
       {
         "file": "package.json",
-        "hash": "17458068655840575174"
+        "hash": "6801341522363960974"
       },
       {
         "file": "src/app/account/account.component.html",
@@ -218,7 +219,7 @@
       },
       {
         "file": "src/app/app.config.ts",
-        "hash": "5046335631815860232"
+        "hash": "7046324389731736049"
       },
       {
         "file": "src/app/app.routes.ts",
@@ -226,7 +227,7 @@
       },
       {
         "file": "src/app/caisse/caisse.component.html",
-        "hash": "7237197958635016310"
+        "hash": "7572187942556074866"
       },
       {
         "file": "src/app/caisse/caisse.component.scss",
@@ -234,7 +235,7 @@
       },
       {
         "file": "src/app/caisse/caisse.component.ts",
-        "hash": "16208381333921041175"
+        "hash": "17957487296451275520"
       },
       {
         "file": "src/app/caisse/components/categories-chart/categories-chart.component.html",
@@ -259,6 +260,18 @@
       {
         "file": "src/app/caisse/components/items-chart/items-chart.component.ts",
         "hash": "10459321648899567703"
+      },
+      {
+        "file": "src/app/caisse/components/payment-type/payment-type.component.html",
+        "hash": "17630431985527933195"
+      },
+      {
+        "file": "src/app/caisse/components/payment-type/payment-type.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/caisse/components/payment-type/payment-type.component.ts",
+        "hash": "1544255800797205389"
       },
       {
         "file": "src/app/caisse/components/stock-products-table/stock-products-table.component.html",
@@ -362,7 +375,7 @@
       },
       {
         "file": "src/app/core/layout/sidebar/nav-data.ts",
-        "hash": "5185006260378892291"
+        "hash": "3819691860088115129"
       },
       {
         "file": "src/app/core/layout/sidebar/sidebar.component.html",
@@ -978,7 +991,7 @@
       },
       {
         "file": "src/assets/scss/core/layouts/_sidebar.scss",
-        "hash": "12035125977526602639"
+        "hash": "12916654164620063271"
       },
       {
         "file": "src/assets/scss/core/layouts/_split.scss",
@@ -1818,7 +1831,7 @@
       },
       {
         "file": "src/styles.scss",
-        "hash": "6335105767903208469"
+        "hash": "18183443754089851394"
       },
       {
         "file": "tsconfig.app.json",

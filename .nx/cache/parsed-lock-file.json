@@ -8118,6 +8118,15 @@
         "hash": "sha512-AnOZ2KSRw7QjiMMNtXz9tdnO+XrIKP/2MX1TfqEEo2fwFU5c8LFJIYqmkMPkIzAEm/U9y/1psA5TDNmxxjEdgA=="
       }
     },
+    "npm:ngx-mask": {
+      "type": "npm",
+      "name": "npm:ngx-mask",
+      "data": {
+        "version": "17.0.4",
+        "packageName": "ngx-mask",
+        "hash": "sha512-Rfox/zLIcuEc+t8xGvDYL83KYw0P80Ctvx+uy3v/F901XLhzEXKEgPOEFRKNkQu4Eu5Y7SjnX44mGdk/1cqh3w=="
+      }
+    },
     "npm:ngx-mat-number-input-spinner": {
       "type": "npm",
       "name": "npm:ngx-mat-number-input-spinner",
@@ -21029,6 +21038,26 @@
     },
     {
       "source": "npm:ng2-charts",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:ngx-mask",
+      "target": "npm:@angular/common",
+      "type": "static"
+    },
+    {
+      "source": "npm:ngx-mask",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:ngx-mask",
+      "target": "npm:@angular/forms",
+      "type": "static"
+    },
+    {
+      "source": "npm:ngx-mask",
       "target": "npm:tslib",
       "type": "static"
     },

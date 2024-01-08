@@ -405,6 +405,9 @@ tr.mat-mdc-row {
 
 
 .cdk-overlay-dark-backdrop {
-  backdrop-filter: blur(5px);
-  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  background: rgba(52, 58, 65, 0.600000);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  height: 100%;
+  z-index: auto !important;
 }

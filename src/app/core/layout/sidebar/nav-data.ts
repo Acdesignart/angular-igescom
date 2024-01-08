@@ -11,6 +11,21 @@ export const navbarData = [
   {
     routeLink: 'auth',
     icon: 'swap_horizontal_circle',
+    label: 'Commandes',
+  },
+  {
+    routeLink: 'auth',
+    icon: 'local_mall',
+    label: 'Page connexion',
+  },
+  {
+    routeLink: 'auth',
+    icon: 'local_mall',
+    label: 'Inventaire',
+  },
+  {
+    routeLink: 'auth',
+    icon: 'local_mall',
     label: 'Page connexion',
   },
   {
