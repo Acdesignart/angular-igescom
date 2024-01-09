@@ -1,0 +1,101 @@
+<mat-dialog-content class="mat-typography">
+  <div class="nk-block nk-block-lg">
+    <div class="nk-block-head">
+      <div class="nk-block-head-content">
+        <div class="nk-block-des"></div>
+      </div>
+    </div>
+    <div class="card card-bordered">
+      <div class="card-inner">
+        <div class="card-head">
+          <h4 class="card-title">Mode de paiement(s)</h4>
+        </div>
+        <form action="#" class="gy-3">
+          <div class="row g-3 align-center">
+            <div class="col-lg-5">
+              <div class="form-group">
+                <label class="form-label" for="site-name"
+                  >Sélectionnez le mode de paiement.</label
+                >
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <mat-form-field class="w-100">
+                <mat-label>Paiement</mat-label>
+                <mat-icon matSuffix>account_balance</mat-icon>
+                <mat-select>
+                  @for (methodepay of methodepays; track methodepay) {
+                    <mat-option [value]="methodepay.value">{{
+                      methodepay.viewValue
+                    }}</mat-option>
+                  }
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div class="nk-divider divider md"></div>
+
+          <div class="card-head">
+            <h5 class="card-title">Ajouter les informations de paiement</h5>
+          </div>
+          <form action="#">
+            <div class="row g-4">
+              <div class="col-lg-6">
+                <mat-form-field class="w-100" appearance="fill">
+                  <mat-label>N° mobile money</mat-label>
+
+                  <mat-icon matSuffix>phone_iphone</mat-icon>
+
+                  <input
+                    matInput
+                    placeholder="EX: 07 48 39 16 39"
+                    prefix="+225 "
+                    mask="00 00 00 00 00" />
+                </mat-form-field>
+              </div>
+              <div class="col-lg-6">
+                <mat-form-field class="w-100" appearance="fill">
+                  <mat-label>Montant à débiter</mat-label>
+
+                  <mat-icon matSuffix>paid</mat-icon>
+
+                  <input
+                    matInput
+                    placeholder="EX: 125 897 854 "
+                    mask="separator" />
+                </mat-form-field>
+              </div>
+              <div class="col-lg-6">
+                <mat-form-field class="w-100" appearance="fill">
+                  <mat-label>Persone actuel</mat-label>
+                  <input matInput formControlName="last" />
+                  <mat-icon matSuffix>person</mat-icon>
+                </mat-form-field>
+              </div>
+              <div class="col-lg-6">
+                <mat-form-field class="w-100" appearance="fill">
+                  <mat-label>Le porteur</mat-label>
+                  <input matInput formControlName="last" />
+                  <mat-icon matSuffix>contact_page</mat-icon>
+                </mat-form-field>
+              </div>
+            </div>
+          </form>
+        </form>
+      </div>
+    </div>
+  </div>
+</mat-dialog-content>
+<div class="card-inner pt-0">
+  <mat-dialog-actions align="end">
+    <button mat-flat-button color="warn" mat-dialog-close>Annuler</button>
+    <button
+      mat-flat-button
+      color="primary"
+      [mat-dialog-close]="true"
+      cdkFocusInitial>
+      Valider
+    </button>
+  </mat-dialog-actions>
+</div>
