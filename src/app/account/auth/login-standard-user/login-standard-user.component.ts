@@ -36,10 +36,6 @@ export class LoginStandardUserComponent implements OnInit {
       imageSrc: './assets/images/carousel-auth/silver-modern-with-variant.png',
       imageAlt: 'nature1',
     },
-    {
-      imageSrc: './assets/images/carousel-auth/grey-blue-with-variant.png',
-      imageAlt: 'nature1',
-    },
   ];
 
   email = new FormControl('', [Validators.required, Validators.email]);
